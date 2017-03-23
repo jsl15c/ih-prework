@@ -49,7 +49,7 @@ for (var i = 0; i < favFood.length; i++) {
 }
 // function using forEach method
 favFood.forEach(function(food) { //store array in variable 'food'
-  if ((favFood.indexOf(food)%2 === 0)) { // get index number of each element and check for even number
+  if ((favFood.indexOf(food) % 2 === 0)) { // get index number of each element and check for even number
     console.log(food);
   }
 });
